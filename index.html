@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Holiday Papua - MUHAMMAD REIHAN AKMAL</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Background suara (backsound) -->
+    <audio id="bgm" src="media/backsound.wav" autoplay loop controls style="position:fixed; right:8px; bottom:30px; width:240px; z-index:10;">
+  Browser Anda tidak mendukung elemen audio.
+</audio>
+
+    <div id="header">
+        <h1>My Holiday</h1>
+        <p>Wisata Papua &ndash; Surga di Timur Indonesiaku Tercinta</p>
+        <div class="owner">Dibuat : MUHAMMAD REIHAN AKMAL &ndash; NIM 241011403053 &ndash; 05TPLK006</div>
+    </div>
+
+    <div id="searchbar">
+        <form action="https://www.google.com/search" method="get" target="_blank" style="display:inline">
+            Search: <input type="text" name="q"> <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <div id="wrapper">
+        <div id="menu">
+            <a href="#">&rsaquo; Sign Out</a>
+            <a href="index.html">&rsaquo; Homepage</a>
+            <a href="bullet.html">&rsaquo; Bullet Numbering</a>
+            <a href="tabel.html">&rsaquo; Tabel</a>
+            <a href="frame.html">&rsaquo; Frame</a>
+            <a href="iframe.html">&rsaquo; Iframe</a>
+            <hr>
+            <a href="#rajaampat">&rsaquo; Raja Ampat</a>
+            <a href="#sentani">&rsaquo; Danau Sentani</a>
+            <a href="#baliem">&rsaquo; Lembah Baliem</a>
+            <a href="#video">&rsaquo; Video</a>
+        </div>
+
+        <div id="content">
+            <div class="date">22 Oktober 2026</div>
+            <h2>WELCOME TO MY HOMEPAGE</h2>
+
+            <div class="hero-wrap" id="rajaampat">
+                <img src="images/raja-ampat.jpg" onerror="this.onerror=null;this.src='images/raja-ampat.svg'" class="hero" alt="Raja Ampat - My Holiday (MUHAMMAD REIHAN AKMAL)">
+                <span class="hero-label">Raja Ampat, Papua Barat</span>
+            </div>
+
+            <p>Papua adalah wilayah paling timur Indonesia dengan alam yang luar biasa: gugusan pulau karst Raja Ampat yang dikelilingi laut biru jernih, Danau Sentani yang tenang di kaki pegunungan, hingga Lembah Baliem dengan budaya suku asli yang masih
+                terjaga. Di halaman ini saya membagikan tempat-tempat wisata Papua yang ingin saya kunjungi saat liburan.</p>
+            <p>Silakan jelajahi menu di sebelah kiri untuk melihat daftar destinasi (bullet numbering), tabel rencana perjalanan, serta halaman yang menggunakan frame dan iframe.</p>
+
+            <div class="media" id="sentani">
+                <h3>Danau Sentani, Jayapura</h3>
+                <img src="images/sentani.jpg" onerror="this.onerror=null;this.src='images/sentani.svg'" width="320" alt="Danau Sentani - MUHAMMAD REIHAN AKMAL">
+                <p>Danau seluas sekitar 9.360 hektare ini dikelilingi bukit hijau dan pulau-pulau kecil.</p>
+            </div>
+
+            <div class="media" id="baliem">
+                <h3>Lembah Baliem, Wamena</h3>
+                <img src="images/baliem.jpg" onerror="this.onerror=null;this.src='images/baliem.svg'" width="320" alt="Lembah Baliem - MUHAMMAD REIHAN AKMAL">
+                <p>Lembah di pegunungan tengah Papua, terkenal dengan Festival Budaya Lembah Baliem.</p>
+            </div>
+
+            <div class="media" id="video">
+                <h3>Video Liburan Saya</h3>
+                <video width="480" controls poster="images/raja-ampat.svg" style="max-width:100%">
+        <source src="media/video.mp4" type="video/mp4">
+        Browser Anda tidak mendukung elemen video.
+      </video>
+                <p style="text-align:center">Video: My Holiday Papua &ndash; MUHAMMAD REIHAN AKMAL</p>
+                <details>
+                    <summary>Tampilkan video YouTube (opsional)</summary>
+                    <iframe class="video" src="https://www.youtube.com/embed/VIDEO_ID" title="Video wisata Papua" allowfullscreen></iframe>
+                </details>
+            </div>
+        </div>
+
+        <div id="side">
+            <h3>OUR RECOMMENDED<br>PLACES</h3>
+            <img src="images/sentani.jpg" onerror="this.onerror=null;this.src='images/sentani.svg'" alt="Danau Sentani - NAMA MAHASISWA">
+            <p><b><u>Danau Sentani</u></b><br>Danau luas dengan pulau-pulau kecil dan desa adat di tepinya. <a href="bullet.html"><b>Read more &gt;</b></a></p>
+            <img src="images/baliem.jpg" onerror="this.onerror=null;this.src='images/baliem.svg'" alt="Lembah Baliem - NAMA MAHASISWA">
+            <p><b><u>Lembah Baliem</u></b><br>Pegunungan hijau dengan budaya suku Dani yang unik. <a href="tabel.html"><b>Read more &gt;</b></a></p>
+        </div>
+    </div>
+
+    <div id="footer">&copy; 2026 My Holiday Papua indah &ndash; MUHAMMAD REIHAN AKMAL &ndash; Ujian Tengah Semester Pemrograman Web 1</div>
+
+</body>
+
+</html>

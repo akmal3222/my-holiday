@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="400" height="240">
+<defs><linearGradient id="s" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a8dcff"/><stop offset="1" stop-color="#3a8fd0"/></linearGradient></defs>
+<rect width="400" height="240" fill="url(#s)"/><polygon points="0,130 90,60 190,130" fill="#4f6b3a"/><polygon points="150,130 270,50 400,130" fill="#5b7d44"/><rect y="130" width="400" height="110" fill="#2b86c5"/>
+<text x="12" y="228" font-family="Arial" font-size="14" fill="#fff">Danau Sentani - NAMA MAHASISWA</text></svg>
